@@ -7,7 +7,7 @@ const AllPokemons = ({setInfoCompartida}) => {
     useEffect(() =>{
         const obtenerPokemons = async () => {
             try {
-                const url = "https://pokeapi.co/api/v2/pokemon/"// "http://localhost:4000/clientes/" //"https://pokeapi.co/api/v2/item/"
+                const url = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0"
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
 
