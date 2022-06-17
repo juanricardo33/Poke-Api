@@ -69,7 +69,12 @@ const BuscaTuPmon = ({infoBusqueda,
       </div >
 
       <div className='busca-info-container container'>
-          <Habilidades infoCompartida={infoCompartida} habilidades={habilidades} setHabilidades={setHabilidades}/>
+        <div className='habilities-contenedor'>
+          <Habilidades
+            infoCompartida={infoCompartida}
+            habilidades={habilidades}
+            setHabilidades={setHabilidades}/>
+          </div>
       </div>
     </>
 

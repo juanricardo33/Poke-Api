@@ -40,7 +40,7 @@ const Habilidades = ({infoCompartida, habilidades, setHabilidades}) => {
 }, 50);
 
     return (
-        <div className='habilities-contenedor'>
+        <>
             {
                 habilidades.map(element => (
                     <p
@@ -50,7 +50,8 @@ const Habilidades = ({infoCompartida, habilidades, setHabilidades}) => {
                     </p>
                 ))
             }
-        </div>
+        </>
+
     )
 }
 

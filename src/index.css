@@ -370,12 +370,71 @@ height: 300px;
   }
 }
 @media screen and (max-width:480px) {
+  /*PAGINA ALL POKEMONS*/
   .barra-nav {
     flex-flow: column wrap;
     align-items: flex-start;
   }
   .nav-text {
-    padding: 10px 10px;
-    width: 250px;
+    padding:28px 10px;
+    width: 230px;
+  }
+  .container-cards {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  /*PAGINA VER POKEMON*/
+  .habilities-contenedor {
+
+    height: 100%;
+  }
+
+  /*PAGINA BUSCA TU POKEMON*/
+  .form-input-text {
+    width: 340px;
+    font-size: 20px;
+  }
+  .form-bottom {
+    padding: 5px 40px;
+    font-size: 28px;
+  }
+  .alerta-container {
+    margin: 22px 0 22px 0;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  .alerta-text {
+    font-size: 14px;
+    text-align: center;
+  }
+  .busca-pokemon-image {
+    max-width: 250px;
+    min-width: 250px;
+  }
+  .habilities-contenedor {
+    width: 90%;
+    height: 300px;
+  }
+  /*PAGINA QUIEN ES ESE POKEMON*/
+  .who-text {
+    height: 50px;
+    width: 340px;
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+  }
+  .pag-ver-image {
+    height: 200px;
+  }
+  .who-boton-reset {
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  .who-boton-validar {
+    padding: 10px 20px;
+    font-size: 30px;
   }
 }

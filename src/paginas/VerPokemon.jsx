@@ -20,7 +20,6 @@ const VerPokemon = ({infoCompartida, habilidades, setHabilidades}) => {
                     </img>
                 </div>
                 <p className="pag-ver-titulos">Habilidades</p>
-
                 <div className='habilities-contenedor'>
                     {
                         <Habilidades
